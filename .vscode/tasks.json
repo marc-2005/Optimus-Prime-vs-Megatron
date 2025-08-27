@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build battle",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "battle.cpp",
+        "-o",
+        "battle.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
